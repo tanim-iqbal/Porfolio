@@ -1,0 +1,246 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*section {
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.199);
+    border: solid rgba(0, 0, 0, 0.212)  2px;
+}*/
+.Main {
+    border: solid rgb(255, 230, 0) 10px;
+    font-size: 30px;
+    color: rgb(241, 91, 36);
+    background-color:rgb(100, 51, 51);
+    height: 95vh;
+    background-image: url(images/banner.gif);
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px rgb(83, 83, 83);
+}
+
+.main-text {
+    margin-left: 10px;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+} 
+
+a {
+    text-decoration: none;
+    color: rgb(250, 95, 6);
+}
+
+a:hover {
+    font-size: larger;
+    background-color: rgba(255, 255, 0, 0.822);
+}
+
+ul {
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+li {
+    /*width: 150px;*/
+    list-style-type: none;
+    display: flexbox;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px;
+    color: rgb(255, 240, 34);
+    padding-top: 30px;
+}
+.sub-section{
+    /*border: solid rgb(250, 124, 78) 3px;*/
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+h2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+.headshot {
+    width: 200px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 3px rgb(158, 158, 158);
+}
+.headshot-block{
+    display: flex;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 3px;
+    color: rgb(241, 91, 36);
+}
+
+.about {
+    font-size: 20px;
+    color: black;
+    align-content: center;
+    margin-top: 20px;
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+    flex: content;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+h3 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtext {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.project-card-large {
+    height: 400px;
+    box-shadow: 5px 5px 15px rgb(83, 83, 83);
+    justify-content: space-around;
+    padding-bottom: 5px;
+    margin: 35px;
+    background-image: url(images/project1.jpeg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.project-card-large:hover {
+    width: 95%;
+    height: 420px;
+}
+
+.other-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card-small1 {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    box-shadow: 2.5px 2.5px 10px rgb(56, 56, 56);
+    margin: 25px;
+    background-image: url(images/project2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-card-small1:hover {
+    width: 450px;
+    height: 275px;
+}
+
+.project-card-small2 {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    box-shadow: 2.5px 2.5px 10px rgb(56, 56, 56);
+    margin: 25px;
+    background-image: url(images/project4.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-card-small2:hover {
+    width: 450px;
+    height: 275px;
+}
+
+.project-card-small3 {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    box-shadow: 2.5px 2.5px 10px rgb(56, 56, 56);
+    margin: 25px;
+    background-image: url(images/project3.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-card-small3:hover {
+    width: 450px;
+    height: 275px;
+}
+
+.main-project-image {
+    width:855px;
+    height: 255px;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    flex: auto;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.socials {
+    display: flexbox;
+    justify-content: center;
+}
+
